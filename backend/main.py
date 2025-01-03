@@ -322,7 +322,7 @@ expected_output='''## 💬 Reddit Sentiment Analysis
             output_content = f"""# 📑 Asset Analysis Report for {input_asset}
 ⏰ Generated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
 
-
+⚠️ **Disclaimer**: This analysis is for informational purposes only and should not be considered financial advice. Always do your own research (DYOR) before making any investment decisions.
 
 {technical_result}
 
