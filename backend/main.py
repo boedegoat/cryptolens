@@ -113,9 +113,7 @@ def analyze_crypto_asset(input_asset):
             Sentiment Data: {fetch_subreddits_results}
             """
 
-            # TODO: refactor this shit
             # analyze with ai
-
             technical_llm = LLM(
                 model='gpt-4o',
                 temperature=0.1,
@@ -323,6 +321,8 @@ expected_output='''## 💬 Reddit Sentiment Analysis
 
             output_content = f"""# 📑 Asset Analysis Report for {input_asset}
 ⏰ Generated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+
+
 
 {technical_result}
 
